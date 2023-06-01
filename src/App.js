@@ -9,6 +9,7 @@ function App() {
   const isUserValid = useBearStore((state) => state.isUserValid);
 
   // return <div>{isUserValid ? <Outlet /> : <Navigate to={"login"} />}</div>;
+  // test commit
 
   return isUserValid ? (
     <div>
